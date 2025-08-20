@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>I'm user</h1>
+    <h1 id="gold">Im sri</h1>
+    <!-- <button onclick="console.log('hello')">Click</button> -->
+     <!-- <button onclick="document.querySelector('#gold').innerText='iam srivalli'">click</button> -->
+<button onclick="clickbutton()">Click</button>
+
+
+<script>
+    function clickbutton(){
+        // let username=document.querySelector('#gold').innerText='Im srivalli'
+        if(document.querySelector('#gold').innerText==='Im sri'){
+            document.querySelector('#gold').innerText='Im srivalli'
+        }else{
+            document.querySelector('#gold').innerText='Im sri';
+        }
+    }
+</script>
+</body>
+</html>
